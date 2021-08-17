@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Todo App HTML - CSS - Vanilla Javascript</title>
+</head>
+<body>
+    <div class="container">
+        <div class="todoContainer">
+            <h2>To-do List</h2>
+            <p class="textholder">Finish your tasks</p>
+            <div class="taskList taskContainer">
+                <input type="text" placeholder="Please input task" id="inputField" type=text>
+                <button  class="add" id="addToDo">+</button>
+            </div>
+            <ol id="toDoContainer">
+                <!-- <li>
+                    <p class="para">Initial List-item</p>
+                    <button class="clearfix buttonClass">x</button>
+                </li> -->
+            </ol>
+            <div id="control-wrapper">
+                <!-- <button id="clear">Clear Completed</button> -->
+                <button id="empty">Empty List</button>
+                <button id="save">Save</button>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

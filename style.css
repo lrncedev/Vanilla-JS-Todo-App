@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gowun Batang', serif;
+    /* outline: 1px solid black; */
+}
+
+body{
+    background: -webkit-gradient(linear, left top, left bottom, from(#06beb6 ), to(#48b1bf)) fixed;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.todoContainer {
+    width: 500px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.todoContainer h2{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.textholder {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.taskContainer{
+    text-align: center;
+}
+.taskContainer input[type='text']{
+    width: 60%;
+    padding: 5px;
+    border-color: gray;
+}
+.listItems{
+    display: inline-bock; 
+    width: 100%;
+}
+
+.buttonClass{
+    float: right;
+    width: 25px;
+    color: white;
+    background-color: #BC2505;
+    border-radius: 10px;
+}
+
+.add{
+    padding: 2px 8px;
+}
+::placeholder {
+    color: #444;
+    font-size: larger;
+}
+
+#toDoContainer{
+    padding: 20px 75px;
+    margin: 10px 0;
+}
+#toDoContainer li{
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #333;
+}
+
+.para{
+    display: inline-block;
+}
+
+#control-wrapper{
+    text-align: center;
+}
+#clear, #empty, #save{
+    margin-right: 5px;
+    color: white;
+    padding: 2px 3px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+#clear {
+    background-color: blue;
+}
+#empty {
+    background-color: red;
+}
+#save {
+    background-color: green;
+}
